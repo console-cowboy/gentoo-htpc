@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories version="1.0">
   <repo quality="testing" status="unofficial">
-    <name>daktak</name>
+    <name>viddi87</name>
     <description lang="en">viddi87 HTPC overlay</description>
     <homepage>https://github.com/viddi87/gentoo</homepage>
     <owner>
