@@ -6,7 +6,7 @@ EAPI=5
 
 PYTHON_COMPAT=( python2_7 )
 
-EGIT_REPO_URI="https://github.com/SiCKRAGETV/SickRage.git"
+EGIT_REPO_URI="https://github.com/SickRage/SickRage.git"
 
 inherit eutils user git-2 python-any-r1
 
@@ -59,7 +59,7 @@ src_install() {
 	echo ${last_commit} > version.txt
 
 	insinto /usr/share/${PN}
-	doins -r sickrage/autoProcessTV sickrage/core/webserver/gui lib runscripts sickbeard sickrage tests tornado SickBeard.py version.txt
+	doins -r autoProcessTV contrib gui lib runscripts sickbeard sickrage tests tornado SickBeard.py version.txt
 
 	fowners -R ${PN}:${PN} /usr/share/${PN}
 }
