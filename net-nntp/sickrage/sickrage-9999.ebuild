@@ -59,7 +59,7 @@ src_install() {
 	echo ${last_commit} > version.txt
 
 	insinto /usr/share/${PN}
-	doins -r contrib gui lib runscripts sickbeard sickrage tests tornado SickBeard.py version.txt
+	doins -r contrib gui lib runscripts sickbeard sickrage tests lib/tornado SickBeard.py version.txt
 
 	fowners -R ${PN}:${PN} /usr/share/${PN}
 }
