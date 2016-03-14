@@ -4,12 +4,12 @@
   <repo quality="testing" status="unofficial">
     <name>viddi87</name>
     <description lang="en">viddi87 HTPC overlay</description>
-    <homepage>https://github.com/viddi87/gentoo</homepage>
+    <homepage>https://github.com/viddi87/gentoo-htpc</homepage>
     <owner>
       <email>viddi87</email>
       <name>viddi87</name>
     </owner>
-    <source type="git">https://github.com/viddi87/gentoo.git</source>
-    <source type="git">git://github.com/viddi87/gentoo.git</source>
+    <source type="git">https://github.com/viddi87/gentoo-htpc.git</source>
+    <source type="git">git://github.com/viddi87/gentoo-htpc.git</source>
   </repo>
 </repositories>
