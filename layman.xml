@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <layman>
-  <overlay type="git" src="https://github.com/viddi87/gentoo-htpc.git" contact="viddi87" name="viddi87">
+  <overlay type="git" src="https://github.com/viddi87/gentoo-htpc.git" contact="viddi87" name="gentoo-htpc">
     <link>https://github.com/viddi87/gentoo-htpc</link>
     <description>viddi87 HTPC overlay</description>
   </overlay>
