@@ -2,12 +2,12 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories version="1.0">
   <repo quality="testing" status="unofficial">
-    <name>gentoo-htpc</name>
+    <name>viddi87</name>
     <description lang="en">viddi87 HTPC overlay</description>
     <homepage>https://github.com/viddi87/gentoo-htpc</homepage>
     <owner>
       <email>viddi@viddi.us</email>
-      <name>gentoo-htpc</name>
+      <name>viddi87</name>
     </owner>
     <source type="git">https://github.com/viddi87/gentoo-htpc.git</source>
     <source type="git">git://github.com/viddi87/gentoo-htpc.git</source>
