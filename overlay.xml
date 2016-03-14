@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories version="1.0">
+  <repo priority="50"
+        quality="stable" 
+        status="unofficial">
+          <name>gentoo-htpc</name>
+          <description lang="en">viddi87 HTPC overlay</description>
+          <homepage>https://github.com/viddi87/gentoo-htpc</homepage>
+          <owner type"person">
+                  <email>viddi@viddi.us</email>
+                  <name>Vidar L</name>
+          </owner>
+          <source type="git">https://github.com/viddi87/gentoo-htpc.git</source>
+          <source type="git">git://github.com/viddi87/gentoo-htpc.git</source>
+  </repo>
+</repositories>
