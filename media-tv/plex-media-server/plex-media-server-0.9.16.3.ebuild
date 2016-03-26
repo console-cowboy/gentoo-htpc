@@ -103,6 +103,12 @@ src_install() {
 pkg_postinst()
 {
 	einfo ""
+        elog "Patching Plex binaries with pax headers"
+        sh "${FILESDIR}"/pax_fix.sh
+        elog "Plex binaries have been patched"
+        einfo ""
+	
+	einfo ""
 	elog "Plex Media Server is now installed. Please check the configuration file in /etc/plex/${_SHORTNAME} to verify the default settings."
 	elog "To start the Plex Server, run 'rc-config start plex-media-server', you will then be able to access your library at http://<ip>:32400/web/"
 	einfo ""
