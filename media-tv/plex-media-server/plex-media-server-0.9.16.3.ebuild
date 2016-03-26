@@ -27,7 +27,7 @@ RESTRICT="mirror strip"
 KEYWORDS="-* ~amd64"
 IUSE="hardened"
 
-DEPEND="net-dns/avahi"
+DEPEND="net-dns/avahi sys-apps/paxctl"
 RDEPEND="${DEPEND}
 	hardened? ( sys-apps/fix-gnustack )"
 
