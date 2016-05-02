@@ -7,24 +7,23 @@ EAPI=5
 
 inherit eutils user systemd
 
-MINOR1="1993"
-MINOR2="5089475"
+MINOR="1993-5089475"
+
 
 _APPNAME="plexmediaserver"
 _USERNAME="plex"
 _SHORTNAME="${_USERNAME}"
-_FULL_VERSION="${PV}.${MINOR1}-${MINOR2}"
 
-URI="https://downloads.plex.tv/plex-media-server"
+URI="http://downloads.plexapp.com/plex-media-server/${PV}.${MINOR}/plexmediaserver_${PV}.${MINOR}_"
 
 DESCRIPTION="Plex Media Server is a free media library that is intended for use with a plex client available for OS X, iOS and Android systems."
 HOMEPAGE="http://www.plex.tv/"
-SRC_URI="
-	amd64? ( ${URI}/${_FULL_VERSION}/plexmediaserver_${_FULL_VERSION}_amd64.deb )"
+SRC_URI="x86? ( ${URI}i386.deb )
+	amd64? ( ${URI}amd64.deb )
 SLOT="0"
 LICENSE="PlexMediaServer"
 RESTRICT="mirror strip"
-KEYWORDS="-* ~amd64"
+KEYWORDS="-* ~x86 ~amd64"
 IUSE="hardened"
 
 DEPEND="net-dns/avahi sys-apps/paxctl"
