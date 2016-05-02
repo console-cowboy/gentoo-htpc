@@ -14,7 +14,7 @@ _APPNAME="plexmediaserver"
 _USERNAME="plex"
 _SHORTNAME="${_USERNAME}"
 
-URI="http://downloads.plexapp.com/plex-media-server/${PV}.${MINOR}/plexmediaserver_${PV}.${MINOR}_"
+URI="https://downloads.plex.tv/plex-media-server/${PV}.${MINOR}/plexmediaserver_${PV}.${MINOR}_"
 
 DESCRIPTION="Plex Media Server is a free media library that is intended for use with a plex client available for OS X, iOS and Android systems."
 HOMEPAGE="http://www.plex.tv/"
