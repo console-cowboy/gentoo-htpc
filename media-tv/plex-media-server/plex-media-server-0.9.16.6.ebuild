@@ -27,7 +27,7 @@ KEYWORDS="-* ~x86 ~amd64"
 IUSE="hardened"
 
 DEPEND="net-dns/avahi sys-apps/paxctl"
-RDEPEND="${DEPEND}
+RDEPEND="${DEPEND}"
 
 QA_DESKTOP_FILE="usr/share/applications/plexmediamanager.desktop"
 QA_PREBUILT="*"
