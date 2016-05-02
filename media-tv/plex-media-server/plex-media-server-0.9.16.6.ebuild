@@ -19,7 +19,7 @@ URI="http://downloads.plexapp.com/plex-media-server/${PV}.${MINOR}/plexmediaserv
 DESCRIPTION="Plex Media Server is a free media library that is intended for use with a plex client available for OS X, iOS and Android systems."
 HOMEPAGE="http://www.plex.tv/"
 SRC_URI="x86? ( ${URI}i386.deb )
-	amd64? ( ${URI}amd64.deb )
+	amd64? ( ${URI}amd64.deb )"
 SLOT="0"
 LICENSE="PlexMediaServer"
 RESTRICT="mirror strip"
