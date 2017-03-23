@@ -4,7 +4,7 @@
 
 EAPI="5"
 
-inherit webapp depend.php git-2 eutils
+inherit webapp git-2 eutils
 
 DESCRIPTION="Php web frontend for an existing Sick-Beard installation for video streaming"
 HOMEPAGE="https://github.com/uberdiesel/cloakstream"
